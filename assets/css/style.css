@@ -66,7 +66,7 @@ nav{
 	height: auto;
 }
 .sidebar{
-	width:20%;
+	width:27%;
 	display: inline-block;
 	background-color: #fff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -252,21 +252,66 @@ textarea{
 }
 
 @media only screen and (max-width: 768px) {
-    .name {
-        margin-left:0;
+    
+    .main{
+    	width: 100%;
+    	display: block;
     }
     .navlinks{
-    	padding-left: 10px;
+    	margin-right: 0;
     }
+     .portfolio{
+     	display: inline-block;
+     }
+     
+    .main .ethan {
+        width: 243px;
+        height: 243px;
+    }
+    .p{
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	display: inline;
+    }
+	.sidebar{
+		position: relative;
+		display: block;
+		margin-bottom: 50px;
+		width: 100%;
+
+	}
     .sidebar h3{
+    	text-align: left;
     	width: 85%; 	
     }
     .link{
     	padding: 30px 30px 10px 0;
     	margin-left: 10px;
     }
+    
+}
+@media only screen and (max-width: 980px) {
+    .sidebar{
+    	width: 27%
+    }
+    .main img{
+		width: 90%;
+		height: 200px;
+
+    }
     .main p{
     	display: block;
     }
+   .form p{
+   	padding-bottom: 0;
+   }
+   .box{
+     	width:90%;
+     	margin-left: 10%;
+     }
+     .banner{
+     	width: 90%;
+     }
+
 }
 
