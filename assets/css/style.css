@@ -291,9 +291,7 @@ textarea{
     
 }
 @media only screen and (max-width: 980px) {
-    .sidebar{
-    	width: 27%
-    }
+    
     .main img{
 		width: 90%;
 		height: 200px;
